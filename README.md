@@ -56,5 +56,14 @@ __Vocabulary__:
     Hoisting is JavaScript's default behavior of moving declarations to the top.
     In JavaScript, a variable can be declared after it has been used.
     JavaScript only hoists declarations, not initializations.
+    
+ * Immediately-Invoked Function Expression (IIFE)
+    It is a JavaScript function that runs as soon as it is defined.
+    The variable within the expression can not be accessed from outside it.
+    ```js 
+    (function () {
+    statements
+    })();
+    ```
 
 
