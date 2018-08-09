@@ -71,5 +71,22 @@ __Vocabulary__:
  * Defined: When a value is first assigned to a new variable
 
  * Visible: A variable is visible in a scope if it can be used in that scope.
+  
+ * OBJECT - 
+    In JavaScript, almost "everything" is an object.
+    Booleans can be objects (if defined with the new keyword)
+    Numbers can be objects (if defined with the new keyword)
+    Strings can be objects (if defined with the new keyword)
+    Dates are always objects
+    Maths are always objects
+    Regular expressions are always objects
+    Arrays are always objects
+    Functions are always objects
+    Objects are always objects
+    All JavaScript values, except primitives, are objects.
+
+* OPERATOR PRECEDENCE -
+    Operator precedence determines the way in which operators are parsed with respect to each other.
+    Operators with higher precedence become the operands of operators with lower precedence.
 
 
